@@ -7,4 +7,6 @@ import {Component} from '@angular/core';
         './root.component.scss'
     ]
 })
-export class RootComponent {}
+export class RootComponent {
+    bytes: number = 0;
+}
