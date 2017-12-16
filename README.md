@@ -2,12 +2,12 @@
 
 A [filesize.js](https://filesizejs.com) pipe for Angular 2.X/4.X/5.X/...
 
-##Usage:
+## Usage:
 ```
 npm install ngx-filesize
 ```
 
-####In your module:
+#### In your module:
 ```typescript
 import {FileSizeModule} from 'ngx-filesize';
 
@@ -24,7 +24,7 @@ import {FileSizeModule} from 'ngx-filesize';
 })
 ```
 
-####In your component:
+#### In your component:
 ```typescript
 {{bytes | filesize}}
 ```
