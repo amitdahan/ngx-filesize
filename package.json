@@ -1,0 +1,40 @@
+{
+  "name": "ngx-filesize",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rollup -c",
+    "prepublic:w": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitdahan/ngx-filesize.git"
+  },
+  "author": "Amit Dahan (amitdahan11@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitdahan/ngx-filesize/issues"
+  },
+  "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
+  "peerDependencies": {
+    "@angular/core": ">=2.0.0 <6.0.0"
+  },
+  "devDependencies": {
+    "@angular/core": "^5.1.1",
+    "@types/filesize": "^3.2.15",
+    "rollup": "^0.52.2",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-angular": "^0.5.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.8.4",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rxjs": "^5.5.5",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "filesize": "^3.5.11"
+  }
+}
