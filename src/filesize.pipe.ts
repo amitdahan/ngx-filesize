@@ -1,5 +1,9 @@
 import {Pipe, PipeTransform} from '@angular/core';
-import filesize from 'filesize';
+
+// Issue #22243
+// https://github.com/DefinitelyTyped/DefinitelyTyped/issues/22243
+declare let require: Function;
+const filesize = require('filesize');
 
 @Pipe({
     name: 'filesize'
@@ -13,7 +17,7 @@ export class FileSizePipe implements PipeTransform {
         return FileSizePipe.transformOne(value, options);
     }
 
-    private static transformOne(value: number, options): string {
+    private static transformOne(value: number, options: any): string {
         return filesize(value, options);
     }
 }
