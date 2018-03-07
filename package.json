@@ -1,40 +1,62 @@
 {
   "name": "ngx-filesize",
+  "description": "A filesize.js pipe for Angular",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rollup -c",
-    "prepublic:w": "rollup -c -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amitdahan/ngx-filesize.git"
-  },
-  "author": "Amit Dahan (amitdahan11@gmail.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amitdahan/ngx-filesize/issues"
+  "main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.min.js",
+  "module": "dist/index.js",
+  "jsnext:main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && npm run build:umd && npm run build:esm",
+    "build:esm": "ngc -p tsconfig-aot.json",
+    "build:umd": "webpack --mode production",
+    "prepare": "",
+    "publish": ""
   },
-  "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
   "peerDependencies": {
-    "@angular/core": ">=2.0.0 <6.0.0"
+    "@angular/core": ">=2.0.0 <7.0.0",
+    "@angular/common": ">=2.0.0 <7.0.0"
   },
   "devDependencies": {
-    "@angular/core": "^5.1.1",
-    "@types/filesize": "^3.2.15",
-    "rollup": "^0.52.2",
-    "rollup-plugin-alias": "^1.4.0",
-    "rollup-plugin-angular": "^0.5.3",
-    "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.8.4",
-    "rollup-plugin-uglify": "^2.0.1",
-    "rxjs": "^5.5.5",
-    "typescript": "^2.6.2"
+    "@angular/compiler": "^5.2.7",
+    "@angular/compiler-cli": "^5.2.7",
+    "@angular/core": "^5.2.7",
+    "@ngtools/webpack": "^1.10.1",
+    "@types/filesize": "^3.6.0",
+    "awesome-typescript-loader": "^5.0.0-0",
+    "rimraf": "^2.6.2",
+    "rxjs": "^5.5.6",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.1.0",
+    "webpack-angular-externals": "^1.0.2",
+    "webpack-cli": "^2.0.10",
+    "webpack-rxjs-externals": "^1.1.0",
+    "zone.js": "^0.8.20"
   },
   "dependencies": {
-    "filesize": "^3.5.11"
-  }
+    "filesize": "^3.6.0"
+  },
+  "repository": "github:amitdahan/ngx-filesize",
+  "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
+  "bugs": "https://github.com/amitdahan/ngx-filesize/issues",
+  "author": "Amit Dahan (amitdahan11@gmail.com)",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "angular5",
+    "angular6",
+    "filesize",
+    "filesizejs",
+    "filesize.js",
+    "pipe"
+  ]
 }
