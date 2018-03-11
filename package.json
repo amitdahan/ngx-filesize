@@ -19,24 +19,21 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@angular/core": ">=2.0.0 <7.0.0",
-    "@angular/common": ">=2.0.0 <7.0.0"
+    "@angular/core": ">=2.0.0 <7.0.0"
   },
   "devDependencies": {
-    "@angular/compiler": "^5.2.7",
-    "@angular/compiler-cli": "^5.2.7",
-    "@angular/core": "^5.2.7",
-    "@ngtools/webpack": "^1.10.1",
+    "@angular/compiler": "^5.2.8",
+    "@angular/compiler-cli": "^5.2.8",
+    "@angular/core": "^5.2.8",
     "@types/filesize": "^3.6.0",
-    "awesome-typescript-loader": "^5.0.0-0",
+    "awesome-typescript-loader": "^5.0.0-1",
     "rimraf": "^2.6.2",
     "rxjs": "^5.5.6",
-    "ts-loader": "^4.0.1",
     "typescript": "^2.7.2",
-    "uglifyjs-webpack-plugin": "^1.2.2",
-    "webpack": "^4.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^4.1.1",
     "webpack-angular-externals": "^1.0.2",
-    "webpack-cli": "^2.0.10",
+    "webpack-cli": "^2.0.11",
     "webpack-rxjs-externals": "^1.1.0",
     "zone.js": "^0.8.20"
   },
@@ -56,6 +53,10 @@
     "filesize",
     "filesizejs",
     "filesize.js",
+    "bytes",
+    "kilobytes",
+    "megabytes",
+    "gigabytes",
     "pipe"
   ]
 }
