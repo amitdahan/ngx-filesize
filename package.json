@@ -16,8 +16,7 @@
     "build": "rimraf dist && npm run build:umd && npm run build:esm",
     "build:esm": "ngc -p tsconfig-aot.json",
     "build:umd": "webpack --mode production",
-    "prepare": "",
-    "publish": ""
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "@angular/core": ">=2.0.0 <7.0.0",
