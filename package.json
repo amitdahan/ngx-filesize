@@ -1,7 +1,7 @@
 {
   "name": "ngx-filesize",
   "description": "A filesize.js pipe for Angular",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "license": "MIT",
   "main": "dist/index.umd.js",
   "unpkg": "dist/index.umd.min.js",
@@ -19,7 +19,7 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@angular/core": ">=2.0.0 <8.0.0"
+    "@angular/core": ">=2.0.0 <9.0.0"
   },
   "devDependencies": {
     "@angular/compiler": "^5.2.8",
@@ -38,7 +38,7 @@
     "zone.js": "^0.8.20"
   },
   "dependencies": {
-    "filesize": "^3.6.0"
+    "filesize": "^4.0.0"
   },
   "repository": "github:amitdahan/ngx-filesize",
   "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
@@ -46,10 +46,6 @@
   "author": "Amit Dahan (amitdahan11@gmail.com)",
   "keywords": [
     "angular",
-    "angular2",
-    "angular4",
-    "angular5",
-    "angular6",
     "filesize",
     "filesizejs",
     "filesize.js",
