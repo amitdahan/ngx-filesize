@@ -7,14 +7,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:lib": "ng build && npm run readme-copy",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "publish:lib": "npm publish ./dist/ngx-filesize",
+    "readme-copy": "cpx \"./README.md\" \"./dist/ngx-filesize\""
   },
-  "files": [
-    "dist/ngx-filesize"
-  ],
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.4",
     "@angular/common": "~8.2.4",
@@ -40,6 +39,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "cpx": "^1.5.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
