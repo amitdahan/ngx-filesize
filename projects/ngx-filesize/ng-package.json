@@ -3,5 +3,6 @@
   "dest": "../../dist/ngx-filesize",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": ["filesize"]
 }
