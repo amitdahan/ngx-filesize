@@ -6,15 +6,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "build:lib": "ng build && npm run readme-copy",
+    "build": "ng build && npm run readme-copy",
+    "pretest": "npm run build",
     "test": "ng test",
-    "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
+    "test:ci": "npm run pretest && ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint",
     "publish:lib": "npm publish ./dist/ngx-filesize",
     "readme-copy": "cpx \"./README.md\" \"./dist/ngx-filesize\""
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.4",
     "@angular/common": "~8.2.4",
