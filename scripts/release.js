@@ -76,6 +76,12 @@ const run = async () => {
   exec(`npm publish --access=public --dry-run ./dist/ngx-filesize`);
   exec(`git checkout package.json`); // cleanup
   exec(`git tag ${newVersion}`);
+
+  const remoteRepo=`https://${process.env.GITHUB_ACTOR}:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`;
+
+  exec(`git config user.name "Merge Release"`);
+  exec(`git config user.email "merge-release@users.noreply.github.com"`);
+  exec(`git remote add merge-release "${removeRepo}"`);
   exec(`git push merge-release --tags`);
 };
 
