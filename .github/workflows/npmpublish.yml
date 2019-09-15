@@ -16,19 +16,14 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm run test:ci
-
-#  publish-npm:
-#    needs: build
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@master
-#      - uses: actions/setup-node@master
-#        with:
-#          node-version: 12
-#          registry-url: https://registry.npmjs.org/
-#      - run: npm publish
-#        if: github.event == 'push'
-#        env:
-#          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          registry-url: https://registry.npmjs.org/
+      - name: Install
+        run: npm ci
+      - name: Tests
+        run: npm run test:ci
+      - name: Publish
+        working-directory: ./dist/ngx-filesize
+        uses: mikeal/merge-release@master
+        if: github.event_name == 'push'
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
