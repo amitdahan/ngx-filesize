@@ -4,7 +4,7 @@ const path = require("path");
 const bent = require("bent");
 const git = require("simple-git")();
 const { promisify } = require("util");
-const np = require("np/source");
+const { execSync } = require("child_process");
 
 const gitLog = promisify(git.log.bind(git));
 
@@ -15,12 +15,7 @@ let pkg = require(path.join(process.cwd(), "package.json"));
 const getVersionBump = async () => {
   if (!process.env.NPM_AUTH_TOKEN)
     throw new Error("Merge-release requires NPM_AUTH_TOKEN");
-  let latest;
-  try {
-    latest = await getPackage(pkg.name + "/latest");
-  } catch (e) {
-    // unpublished
-  }
+  let latest = await getPackage(pkg.name + "/latest");
 
   let messages;
 
@@ -65,14 +60,23 @@ const getVersionBump = async () => {
 };
 
 const run = async () => {
-  await np(await getVersionBump(), {
-    cleanup: false,
-    tests: false,
-    publish: false,
-    yarn: false,
-    releaseDraft: false,
-    contents: "./dist/ngx-filesize"
-  });
+  const version = await getVersionBump();
+
+  const exec = str => process.stdout.write(execSync(str));
+
+  let current = execSync(`npm view ${pkg.name} version`).toString();
+  exec(
+    `npm version --allow-same-version=true --git-tag-version=false ${current} `
+  );
+  console.log("current:", current, "/", "version:", version);
+  let newVersion = execSync(
+    `npm version --git-tag-version=false ${version}`
+  ).toString();
+  console.log("new version:", newVersion);
+  exec(`npm publish --access=public --dry-run ./dist/ngx-filesize`);
+  exec(`git checkout package.json`); // cleanup
+  exec(`git tag ${newVersion}`);
+  exec(`git push merge-release --tags`);
 };
 
 if (
