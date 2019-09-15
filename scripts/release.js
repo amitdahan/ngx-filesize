@@ -10,10 +10,6 @@ const gitLog = promisify(git.log.bind(git));
 
 const getPackage = bent("json", "https://registry.npmjs.org/");
 
-const event = JSON.parse(
-  fs.readFileSync(process.env.GITHUB_EVENT_PATH).toString()
-);
-
 let pkg = require(path.join(process.cwd(), "package.json"));
 
 const getVersionBump = async () => {
@@ -46,6 +42,9 @@ const getVersionBump = async () => {
     }
   }
   if (!latest) {
+    const event = JSON.parse(
+      fs.readFileSync(process.env.GITHUB_EVENT_PATH).toString()
+    );
     messages = event.commits.map(commit => commit.message + "\n" + commit.body);
   }
 
