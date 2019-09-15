@@ -81,7 +81,7 @@ const run = async () => {
 
   exec(`git config user.name "Merge Release"`);
   exec(`git config user.email "merge-release@users.noreply.github.com"`);
-  exec(`git remote add merge-release "${removeRepo}"`);
+  exec(`git remote add merge-release "${remoteRepo}"`);
   exec(`git push merge-release --tags`);
 };
 
