@@ -22,8 +22,8 @@ jobs:
       - name: Tests
         run: npm run test:ci
       - name: Publish
-        working-directory: ./dist/ngx-filesize
         uses: mikeal/merge-release@master
+        working-directory: ./dist/ngx-filesize
         if: github.event_name == 'push'
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
