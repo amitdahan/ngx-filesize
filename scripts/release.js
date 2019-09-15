@@ -70,6 +70,7 @@ const run = async () => {
     tests: false,
     publish: false,
     yarn: false,
+    releaseDraft: false,
     contents: "./dist/ngx-filesize"
   });
 };
