@@ -2,7 +2,7 @@
 
 A [filesize.js](https://filesizejs.com) pipe for Angular
 
-## v2 Migrators USERS
+## v2 Migration
 Pipe name was changed from `{{ 123 | bytes }}` to `{{ 123 | filesize }}`
 
 ## Usage:
