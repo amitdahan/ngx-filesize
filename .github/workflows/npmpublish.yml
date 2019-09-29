@@ -21,8 +21,3 @@ jobs:
         run: npm ci
       - name: Tests
         run: npm run test:ci
-      - name: Publish
-        if: github.event_name == 'push'
-        run: npm run release
-        env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
