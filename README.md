@@ -2,6 +2,9 @@
 
 A [filesize.js](https://filesizejs.com) pipe for Angular
 
+## v2 Migrators USERS
+Pipe name was changed from `{{ 123 | bytes }}` to `{{ 123 | filesize }}`
+
 ## Usage:
 ```
 npm install ngx-filesize
@@ -9,7 +12,7 @@ npm install ngx-filesize
 
 #### In your module:
 ```typescript
-import {FileSizeModule} from 'ngx-filesize';
+import {NgxFilesizeModule} from 'ngx-filesize';
 
 // ...
 
@@ -17,7 +20,7 @@ import {FileSizeModule} from 'ngx-filesize';
     // ...
     imports: [
         // ...
-        FileSizeModule,
+        NgxFilesizeModule,
         // ...
     ]
     // ...
