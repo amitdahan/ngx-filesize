@@ -8,7 +8,7 @@
     "@angular/core": ">= 8.0.0"
   },
   "dependencies": {
-    "filesize": "^4.2.0"
+    "filesize": ">= 4.0.0"
   },
   "private": false,
   "repository": "github:amitdahan/ngx-filesize",
