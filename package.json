@@ -6,11 +6,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && npm run readme-copy",
+    "build": "ng build && yarn readme-copy",
     "pretest": "yarn build",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "publish:lib": "npm publish ./dist/ngx-filesize",
+    "publish:lib": "yarn publish ./dist/ngx-filesize",
     "readme-copy": "cpx \"./README.md\" \"./dist/ngx-filesize\""
   },
   "devDependencies": {
