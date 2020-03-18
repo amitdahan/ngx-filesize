@@ -46,7 +46,7 @@
     "tslib": "1.11.1",
     "tslint": "6.1.0",
     "typescript": "3.6.5",
-    "zone.js": "0.10.2"
+    "zone.js": "0.10.3"
   },
   "repository": "github:amitdahan/ngx-filesize",
   "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
