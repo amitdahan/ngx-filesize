@@ -1,7 +1,7 @@
 {
   "name": "ngx-filesize",
   "description": "A filesize.js pipe for Angular",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,7 @@
     "pretest": "yarn build",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "publish:lib": "yarn publish ./dist/ngx-filesize",
+    "publish:lib": "yarn publish -f ./dist/ngx-filesize",
     "readme-copy": "cpx \"./README.md\" \"./dist/ngx-filesize\""
   },
   "devDependencies": {
