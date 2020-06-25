@@ -45,7 +45,7 @@
     "tsickle": "0.38.1",
     "tslib": "2.0.0",
     "tslint": "6.1.2",
-    "typescript": "3.8.3",
+    "typescript": "3.9.5",
     "zone.js": "0.10.3"
   },
   "repository": "github:amitdahan/ngx-filesize",
