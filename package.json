@@ -14,10 +14,10 @@
     "readme-copy": "cpx \"./README.md\" \"./dist/ngx-filesize\""
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.1001.2",
-    "@angular-devkit/build-ng-packagr": "0.1001.2",
+    "@angular-devkit/build-angular": "0.1001.3",
+    "@angular-devkit/build-ng-packagr": "0.1001.3",
     "@angular/animations": "10.1.3",
-    "@angular/cli": "10.1.2",
+    "@angular/cli": "10.1.3",
     "@angular/common": "10.1.3",
     "@angular/compiler": "10.1.3",
     "@angular/compiler-cli": "10.1.3",
