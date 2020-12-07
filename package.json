@@ -41,7 +41,7 @@
     "ng-packagr": "11.0.3",
     "protractor": "7.0.0",
     "rxjs": "6.6.3",
-    "ts-node": "9.1.0",
+    "ts-node": "9.1.1",
     "tsickle": "0.39.1",
     "tslib": "2.0.3",
     "tslint": "6.1.3",
