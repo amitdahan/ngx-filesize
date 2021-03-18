@@ -27,7 +27,7 @@
     "@angular/platform-browser-dynamic": "11.2.5",
     "@types/jasmine": "3.6.7",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "13.13.46",
+    "@types/node": "13.13.47",
     "codelyzer": "6.0.1",
     "cpx": "1.5.0",
     "filesize": "6.1.0",
