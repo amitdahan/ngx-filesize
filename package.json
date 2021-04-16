@@ -30,7 +30,7 @@
     "@types/node": "13.13.48",
     "codelyzer": "6.0.1",
     "cpx": "1.5.0",
-    "filesize": "6.2.2",
+    "filesize": "6.2.5",
     "jasmine-core": "3.7.1",
     "jasmine-spec-reporter": "6.0.0",
     "karma": "6.3.2",
