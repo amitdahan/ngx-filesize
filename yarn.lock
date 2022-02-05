@@ -4483,6 +4483,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"filesize@npm:^8.0.7":
+  version: 8.0.7
+  resolution: "filesize@npm:8.0.7"
+  checksum: 8603d27c5287b984cb100733640645e078f5f5ad65c6d913173e01fb99e09b0747828498fd86647685ccecb69be31f3587b9739ab1e50732116b2374aff4cbf9
+  languageName: node
+  linkType: hard
+
 "fill-range@npm:^7.0.1":
   version: 7.0.1
   resolution: "fill-range@npm:7.0.1"
@@ -6291,6 +6298,7 @@ __metadata:
     "@angular/router": ~13.2.0
     "@types/jasmine": ~3.10.0
     "@types/node": ^12.11.1
+    filesize: ^8.0.7
     jasmine-core: ~4.0.0
     karma: ~6.3.0
     karma-chrome-launcher: ~3.1.0
