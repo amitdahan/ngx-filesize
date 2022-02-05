@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -22,4 +22,4 @@ jobs:
         cache: 'yarn'
     - run: yarn install --immutable
     - run: yarn build
-    - run: yarn test
+    - run: yarn test --no-watch --no-progress --browsers=ChromeHeadlessCI
