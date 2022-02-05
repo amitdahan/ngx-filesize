@@ -1,11 +1,16 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { NgxFilesizeModule } from 'ngx-filesize';
+import filesize from 'filesize';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
         AppComponent
+      ],
+      imports: [
+        NgxFilesizeModule
       ],
     }).compileComponents();
   });
@@ -22,10 +27,12 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('ngx-filesize-demo');
   });
 
-  it('should render title', () => {
+  it('should use filesize pipe', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ngx-filesize-demo app is running!');
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('.filesize').textContent).toBe(
+      filesize(123456789)
+    );
   });
 });
