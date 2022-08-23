@@ -1,28 +1,25 @@
 {
-  "name": "ngx-filesize",
+  "name": "@rotzbua/ngx-filesize",
+  "version": "14.0.1",
   "description": "A filesize.js pipe for Angular",
   "license": "MIT",
+  "private": false,
   "peerDependencies": {
     "@angular/common": ">= 14.0.0",
-    "@angular/core": ">= 14.0.0"
+    "@angular/core": ">= 14.0.0",
+    "filesize": ">= 9.0.11"
   },
   "dependencies": {
-    "filesize": ">= 4.0.0"
   },
-  "private": false,
-  "repository": "github:amitdahan/ngx-filesize",
-  "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
-  "bugs": "https://github.com/amitdahan/ngx-filesize/issues",
-  "author": "Amit Dahan (amitdahan11@gmail.com)",
   "keywords": [
     "angular",
+    "pipe",
     "filesize",
     "filesizejs",
     "filesize.js",
     "bytes",
     "kilobytes",
     "megabytes",
-    "gigabytes",
-    "pipe"
+    "gigabytes"
   ]
 }

@@ -1,9 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "cli": {
-    "packageManager": "yarn"
-  },
   "newProjectRoot": "projects",
   "projects": {
     "ngx-filesize": {
@@ -13,11 +10,19 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-filesize/tsconfig.lib.json",
             "project": "projects/ngx-filesize/ng-package.json"
-          }
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-filesize/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-filesize/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -31,7 +36,11 @@
     },
     "ngx-filesize-demo": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "projects/ngx-filesize-demo",
       "sourceRoot": "projects/ngx-filesize-demo/src",
       "prefix": "app",
@@ -44,7 +53,6 @@
             "main": "projects/ngx-filesize-demo/src/main.ts",
             "polyfills": "projects/ngx-filesize-demo/src/polyfills.ts",
             "tsConfig": "projects/ngx-filesize-demo/tsconfig.app.json",
-            "aot": false,
             "assets": [
               "projects/ngx-filesize-demo/src/favicon.ico",
               "projects/ngx-filesize-demo/src/assets"
@@ -53,29 +61,12 @@
               "projects/ngx-filesize-demo/src/styles.css"
             ],
             "scripts": [],
-            "vendorChunk": true,
-            "extractLicenses": false,
-            "buildOptimizer": false,
-            "sourceMap": true,
-            "optimization": false,
-            "namedChunks": true
+            "allowedCommonJsDependencies": [
+              "filesize"
+            ]
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "projects/ngx-filesize-demo/src/environments/environment.ts",
-                  "with": "projects/ngx-filesize-demo/src/environments/environment.prod.ts"
-                }
-              ],
-              "optimization": true,
-              "outputHashing": "all",
-              "sourceMap": false,
-              "namedChunks": false,
-              "aot": true,
-              "extractLicenses": true,
-              "vendorChunk": false,
-              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -84,19 +75,31 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
                 }
-              ]
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "projects/ngx-filesize-demo/src/environments/environment.ts",
+                  "with": "projects/ngx-filesize-demo/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
             },
-            "development": {}
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
           },
           "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-          },
           "configurations": {
             "production": {
               "browserTarget": "ngx-filesize-demo:build:production"
@@ -129,21 +132,6 @@
             ],
             "scripts": []
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/ngx-filesize-demo/e2e/protractor.conf.js"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ngx-filesize-demo:serve:production"
-            },
-            "development": {
-              "devServerTarget": "ngx-filesize-demo:serve:development"
-            }
-          },
-          "defaultConfiguration": "development"
         }
       }
     }

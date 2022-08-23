@@ -1,0 +1,38 @@
+name: Build and Test
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    strategy:
+      matrix:
+        node-version: [ 14.x, 16.x ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build library
+        run: npm build_lib
+
+      - name: Build demo
+        run: npm build
+
+      - name: Test library
+        run: npm test_lib
+
+      - name: Test demo
+        run: npm test

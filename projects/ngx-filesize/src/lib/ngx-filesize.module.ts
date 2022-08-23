@@ -1,10 +1,15 @@
-import { NgModule } from '@angular/core';
-import { FileSizePipe } from './filesize.pipe';
-
+import {NgModule} from '@angular/core';
+import {FileSizePipe} from './filesize.pipe';
 
 
 @NgModule({
-  declarations: [FileSizePipe],
-  exports: [FileSizePipe]
+  declarations: [
+    FileSizePipe,
+  ],
+  imports: [],
+  exports: [
+    FileSizePipe,
+  ],
 })
-export class NgxFilesizeModule { }
+export class NgxFilesizeModule {
+}
