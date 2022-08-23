@@ -9,7 +9,9 @@
     "build": "ng build ngx-filesize-demo",
     "build_lib": "ng build ngx-filesize && npm run readme-copy",
     "test": "ng test ngx-filesize-demo",
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless ngx-filesize-demo",
     "test_lib": "ng test ngx-filesize",
+    "test_lib-headless": "ng test --watch=false --browsers=ChromeHeadless ngx-filesize",
     "publish_lib": "npm run build_lib && cd \"dist/ngx-filesize\" && npm publish",
     "readme-copy": "cp \"./README.md\" \"./dist/ngx-filesize\""
   },

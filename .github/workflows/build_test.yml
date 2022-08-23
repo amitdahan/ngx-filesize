@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 14.x, 16.x ]
+        node-version: [ 16.x ]
 
     steps:
       - name: Checkout
@@ -26,13 +26,13 @@ jobs:
         run: npm ci
 
       - name: Build library
-        run: npm build_lib
+        run: npm run build_lib
 
       - name: Build demo
-        run: npm build
+        run: npm run build
 
       - name: Test library
-        run: npm test_lib
+        run: npm run test_lib-headless
 
       - name: Test demo
-        run: npm test
+        run: npm run test-headless
