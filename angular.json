@@ -64,7 +64,13 @@
             "styles": [
               "projects/ngx-filesize-demo/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -95,19 +101,24 @@
                   "maximumError": "10kb"
                 }
               ]
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-filesize-demo:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "ngx-filesize-demo:build:production"
+            },
+            "development": {
+              "browserTarget": "ngx-filesize-demo:build:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -148,14 +159,17 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/ngx-filesize-demo/e2e/protractor.conf.js",
-            "devServerTarget": "ngx-filesize-demo:serve"
+            "protractorConfig": "projects/ngx-filesize-demo/e2e/protractor.conf.js"
           },
           "configurations": {
             "production": {
               "devServerTarget": "ngx-filesize-demo:serve:production"
+            },
+            "development": {
+              "devServerTarget": "ngx-filesize-demo:serve:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         }
       }
     }},
