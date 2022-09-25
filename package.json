@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build ngx-filesize && ng build ngx-filesize-demo",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
