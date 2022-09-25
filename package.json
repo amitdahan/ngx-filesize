@@ -62,5 +62,6 @@
     "megabytes",
     "gigabytes",
     "pipe"
-  ]
+  ],
+  "packageManager": "yarn@3.2.3"
 }
