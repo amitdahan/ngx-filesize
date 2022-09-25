@@ -7,7 +7,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build && yarn readme-copy",
-    "pretest": "yarn build",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint",
     "publish:lib": "cd \"dist/ngx-filesize\" && yarn publish",
