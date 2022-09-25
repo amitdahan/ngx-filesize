@@ -4,20 +4,24 @@ on:
   pull_request:
     branches:
       - master
+      - next
   push:
     branches:
       - master
+      - next
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@master
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
+          node-version: 14
+          cache: 'yarn'
       - name: Install
-        run: yarn install
+        run: yarn install --immutable
+      - name: build
+        run: yarn build
       - name: Tests
         run: yarn test
