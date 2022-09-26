@@ -1,8 +1,8 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "esModuleInterop": true,
   "compileOnSave": false,
   "compilerOptions": {
+    "esModuleInterop": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
