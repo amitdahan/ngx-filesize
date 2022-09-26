@@ -6,7 +6,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:ci": "yarn test --no-watch --no-progress --browsers=ChromeHeadless"
+    "test:ci": "yarn test --no-watch --no-progress --browsers=ChromeHeadless",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
