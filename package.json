@@ -7,10 +7,7 @@
     "build": "ng build ngx-filesize && ng build ngx-filesize-demo",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "lint": "ng lint"
   },
   "private": true,
   "devDependencies": {
@@ -27,11 +24,9 @@
     "@angular/core": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
-    "@cypress/schematic": "2.1.1",
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
-    "cypress": "latest",
     "eslint": "^8.23.1",
     "filesize": "6.3.0",
     "jasmine-core": "~4.3.0",

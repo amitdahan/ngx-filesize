@@ -146,39 +146,6 @@
               "projects/ngx-filesize-demo/**/*.html"
             ]
           }
-        },
-        "cypress-run": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "ngx-filesize-demo:serve",
-            "configFile": "projects/ngx-filesize-demo/cypress.config.js"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ngx-filesize-demo:serve:production"
-            }
-          }
-        },
-        "cypress-open": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "watch": true,
-            "headless": false,
-            "configFile": "projects/ngx-filesize-demo/cypress.config.js"
-          }
-        },
-        "e2e": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "ngx-filesize-demo:serve",
-            "watch": true,
-            "headless": false
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ngx-filesize-demo:serve:production"
-            }
-          }
         }
       }
     }
