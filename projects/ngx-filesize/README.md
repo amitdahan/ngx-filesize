@@ -1,6 +1,6 @@
 # NgxFilesize
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.4.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
 ## Code scaffolding
 
@@ -21,4 +21,4 @@ Run `ng test ngx-filesize` to execute the unit tests via [Karma](https://karma-r
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
