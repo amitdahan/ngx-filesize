@@ -6867,9 +6867,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ngx-filesize-root@workspace:.":
+"ngx-filesize-monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "ngx-filesize-root@workspace:."
+  resolution: "ngx-filesize-monorepo@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"ngx-filesize-root@workspace:packages/ngx-filesize":
+  version: 0.0.0-use.local
+  resolution: "ngx-filesize-root@workspace:packages/ngx-filesize"
   dependencies:
     "@angular-devkit/build-angular": ^14.2.3
     "@angular-eslint/builder": 14.1.2
