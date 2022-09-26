@@ -5,5 +5,9 @@
     "packages/*"
   ],
   "private": true,
+  "scripts": {
+    "build": "yarn workspace ngx-filesize-root build",
+    "test:ci": "yarn workspace ngx-filesize-root test:ci",
+  },
   "packageManager": "yarn@3.2.3"
 }
