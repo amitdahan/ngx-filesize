@@ -21,6 +21,13 @@
     "gigabytes",
     "pipe"
   ],
+  "module": "dist/ngx-filesize/fesm2015/ngx-filesize.mjs",
+  "es2020": "dist/ngx-filesize/fesm2020/ngx-filesize.mjs",
+  "esm2020": "dist/ngx-filesize/esm2020/ngx-filesize.mjs",
+  "fesm2020": "dist/ngx-filesize/fesm2020/ngx-filesize.mjs",
+  "fesm2015": "dist/ngx-filesize/fesm2015/ngx-filesize.mjs",
+  "typings": "dist/ngx-filesize/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
