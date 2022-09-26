@@ -5026,10 +5026,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:6.3.0":
-  version: 6.3.0
-  resolution: "filesize@npm:6.3.0"
-  checksum: dfc33b731f448b663879d4a56a4c5c5d4139da7890781e78be2bbeec1139e04037bda4d22639e4ee354ca83215463ffc0c1ef3cc7e16222eb578a229ba65edbe
+"filesize@npm:>= 4.0.0":
+  version: 9.0.11
+  resolution: "filesize@npm:9.0.11"
+  checksum: 7e8a9f9a4089e3ee29de64c241b50db8db4008351ace959873cb950bac0c2e1e09f4b45f42eaed8acd589a895dde978ed199e7a9982902fa06ca0be48e5ea92d
   languageName: node
   linkType: hard
 
@@ -6886,6 +6886,7 @@ __metadata:
     karma-coverage: ~2.2.0
     karma-jasmine: ~5.1.0
     karma-jasmine-html-reporter: ~2.0.0
+    ngx-filesize: 3.0.0-alpha.0
     rxjs: ~7.5.0
     tslib: ^2.3.0
     typescript: ~4.7.2
@@ -6899,7 +6900,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ngx-filesize@workspace:packages/ngx-filesize":
+"ngx-filesize@3.0.0-alpha.0, ngx-filesize@workspace:packages/ngx-filesize":
   version: 0.0.0-use.local
   resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
@@ -6920,7 +6921,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
     eslint: ^8.23.1
-    filesize: 6.3.0
+    filesize: ">= 4.0.0"
     jasmine-core: ~4.3.0
     karma: ~6.4.0
     karma-chrome-launcher: ~3.1.0
