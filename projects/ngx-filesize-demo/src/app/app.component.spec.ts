@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { NgxFilesizeModule } from 'ngx-filesize';
-import * as filesize from 'filesize';
+import filesize from 'filesize';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
