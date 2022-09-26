@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as filesize_ from 'filesize';
+import filesize_ from 'filesize';
 
 @Pipe({
   name: 'filesize'
