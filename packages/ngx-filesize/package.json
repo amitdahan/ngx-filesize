@@ -1,16 +1,44 @@
 {
-  "name": "ngx-filesize-root",
-  "version": "0.0.0",
+  "name": "ngx-filesize",
+  "version": "3.0.0-alpha.0",
+  "description": "A filesize.js pipe for Angular",
+  "license": "MIT",
+  "repository": {
+    "url": "github:amitdahan/ngx-filesize",
+    "directory": "packages/ngx-filesize"
+  },
+  "homepage": "https://github.com/amitdahan/ngx-filesize#readme",
+  "bugs": "https://github.com/amitdahan/ngx-filesize/issues",
+  "author": "Amit Dahan (amitdahan11@gmail.com)",
+  "keywords": [
+    "angular",
+    "filesize",
+    "filesizejs",
+    "filesize.js",
+    "bytes",
+    "kilobytes",
+    "megabytes",
+    "gigabytes",
+    "pipe"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build ngx-filesize && ng build ngx-filesize-demo",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:ci": "yarn test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint"
   },
   "private": true,
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "filesize": ">= 4.0.0",
+    "tslib": "^2.3.0"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular-eslint/builder": "14.1.2",

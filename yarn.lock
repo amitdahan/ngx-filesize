@@ -6867,15 +6867,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ngx-filesize-monorepo@workspace:.":
+"ngx-filesize-demo@workspace:packages/ngx-filesize-demo":
   version: 0.0.0-use.local
-  resolution: "ngx-filesize-monorepo@workspace:."
+  resolution: "ngx-filesize-demo@workspace:packages/ngx-filesize-demo"
+  dependencies:
+    "@angular-devkit/build-angular": ^14.2.3
+    "@angular/cli": ~14.2.3
+    "@angular/common": ^14.2.0
+    "@angular/compiler": ^14.2.0
+    "@angular/compiler-cli": ^14.2.0
+    "@angular/core": ^14.2.0
+    "@angular/platform-browser": ^14.2.0
+    "@angular/platform-browser-dynamic": ^14.2.0
+    "@types/jasmine": ~4.0.0
+    jasmine-core: ~4.3.0
+    karma: ~6.4.0
+    karma-chrome-launcher: ~3.1.0
+    karma-coverage: ~2.2.0
+    karma-jasmine: ~5.1.0
+    karma-jasmine-html-reporter: ~2.0.0
+    rxjs: ~7.5.0
+    tslib: ^2.3.0
+    typescript: ~4.7.2
+    zone.js: ~0.11.4
   languageName: unknown
   linkType: soft
 
-"ngx-filesize-root@workspace:packages/ngx-filesize":
+"ngx-filesize-root@workspace:.":
   version: 0.0.0-use.local
-  resolution: "ngx-filesize-root@workspace:packages/ngx-filesize"
+  resolution: "ngx-filesize-root@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"ngx-filesize@workspace:packages/ngx-filesize":
+  version: 0.0.0-use.local
+  resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
     "@angular-devkit/build-angular": ^14.2.3
     "@angular-eslint/builder": 14.1.2
@@ -6906,6 +6932,9 @@ __metadata:
     tslib: ^2.3.0
     typescript: ~4.7.2
     zone.js: ~0.11.4
+  peerDependencies:
+    "@angular/common": ^14.2.0
+    "@angular/core": ^14.2.0
   languageName: unknown
   linkType: soft
 
