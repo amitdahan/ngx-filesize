@@ -6,8 +6,8 @@
   ],
   "private": true,
   "scripts": {
-    "build": "yarn workspace ngx-filesize-root build",
-    "test:ci": "yarn workspace ngx-filesize-root test:ci"
+    "build:all": "yarn workspaces foreach --topological-dev -pv run build",
+    "test:all": "yarn workspaces foreach -pv run test:ci"
   },
   "packageManager": "yarn@3.2.3"
 }

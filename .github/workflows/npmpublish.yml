@@ -22,6 +22,6 @@ jobs:
       - name: Install
         run: yarn install --immutable
       - name: build
-        run: yarn build
+        run: yarn build:all
       - name: Tests
-        run: yarn test:ci
+        run: yarn test:all
