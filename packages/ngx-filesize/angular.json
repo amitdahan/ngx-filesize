@@ -4,6 +4,7 @@
   "cli": {
     "packageManager": "yarn"
   },
+  "newProjectRoot": "projects",
   "projects": {
     "ngx-filesize": {
       "projectType": "library",
