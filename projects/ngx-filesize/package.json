@@ -1,6 +1,6 @@
 {
   "name": "@rotzbua/ngx-filesize",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "description": "A filesize.js pipe for Angular",
   "license": "MIT",
   "private": false,
