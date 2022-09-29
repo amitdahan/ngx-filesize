@@ -9,7 +9,10 @@ export class FileSizePipe implements PipeTransform {
     return filesize(value, options);
   }
 
-  transform(value: number | number[], options?: any) {
+  // Fixme: required forward declaration?
+  // transform(value: number, options?: any): string;
+  // transform(value: number[], options?: any): string[];
+  transform(value: number | number[], options?: any){
     if (Array.isArray(value)) {
       return value.map(val => FileSizePipe.transformOne(val, options));
     }
