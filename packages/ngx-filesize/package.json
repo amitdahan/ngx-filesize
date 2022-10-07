@@ -40,10 +40,10 @@
   "private": true,
   "peerDependencies": {
     "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0"
+    "@angular/core": "^14.2.0",
+    "filesize": ">= 4.0.0"
   },
   "dependencies": {
-    "filesize": ">= 4.0.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
