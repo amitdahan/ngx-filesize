@@ -3689,11 +3689,11 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.21.0, core-js-compat@npm:^3.22.1":
-  version: 3.25.2
-  resolution: "core-js-compat@npm:3.25.2"
+  version: 3.25.3
+  resolution: "core-js-compat@npm:3.25.3"
   dependencies:
     browserslist: ^4.21.4
-  checksum: 2e3de43cfed9f0f7ca4fe2c529be514aba6b80209fa314bd882aa5d5f8e3f43b59b2f9b174158ec3b321358ba2ed726a937abe7344279c67da1c51422b5f0b93
+  checksum: f35f4f706695e542bf8bb35cff9b5865105a8c5c012409d703852ad7c9c43ace2371ec8b56d9f6629760dbb4a49529553e57eca5308522cbeedb44b97be8a2db
   languageName: node
   linkType: hard
 
@@ -5404,9 +5404,9 @@ __metadata:
   linkType: hard
 
 "has-symbols@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "has-symbols@npm:1.0.2"
-  checksum: 2309c426071731be792b5be43b3da6fb4ed7cbe8a9a6bcfca1862587709f01b33d575ce8f5c264c1eaad09fca2f9a8208c0a2be156232629daa2dd0c0740976b
+  version: 1.0.3
+  resolution: "has-symbols@npm:1.0.3"
+  checksum: a054c40c631c0d5741a8285010a0777ea0c068f99ed43e5d6eb12972da223f8af553a455132fdb0801bdcfa0e0f443c0c03a68d8555aa529b3144b446c3f2410
   languageName: node
   linkType: hard
 
@@ -6635,10 +6635,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.5":
-  version: 1.2.5
-  resolution: "minimist@npm:1.2.5"
-  checksum: 86706ce5b36c16bfc35c5fe3dbb01d5acdc9a22f2b6cc810b6680656a1d2c0e44a0159c9a3ba51fb072bb5c203e49e10b51dcd0eec39c481f4c42086719bae52
+"minimist@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "minimist@npm:1.2.6"
+  checksum: d15428cd1e11eb14e1233bcfb88ae07ed7a147de251441d61158619dfb32c4d7e9061d09cab4825fdee18ecd6fce323228c8c47b5ba7cd20af378ca4048fb3fb
   languageName: node
   linkType: hard
 
@@ -6723,13 +6723,13 @@ __metadata:
   linkType: hard
 
 "mkdirp@npm:^0.5.5":
-  version: 0.5.5
-  resolution: "mkdirp@npm:0.5.5"
+  version: 0.5.6
+  resolution: "mkdirp@npm:0.5.6"
   dependencies:
-    minimist: ^1.2.5
+    minimist: ^1.2.6
   bin:
     mkdirp: bin/cmd.js
-  checksum: 3bce20ea525f9477befe458ab85284b0b66c8dc3812f94155af07c827175948cdd8114852ac6c6d82009b13c1048c37f6d98743eb019651ee25c39acc8aabe7d
+  checksum: 0c91b721bb12c3f9af4b77ebf73604baf350e64d80df91754dc509491ae93bf238581e59c7188360cec7cb62fc4100959245a42cfe01834efedc5e9d068376c2
   languageName: node
   linkType: hard
 
@@ -6867,9 +6867,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ngx-filesize-demo@workspace:packages/ngx-filesize-demo":
+  version: 0.0.0-use.local
+  resolution: "ngx-filesize-demo@workspace:packages/ngx-filesize-demo"
+  dependencies:
+    "@angular-devkit/build-angular": ^14.2.3
+    "@angular/cli": ~14.2.3
+    "@angular/common": ^14.2.0
+    "@angular/compiler": ^14.2.0
+    "@angular/compiler-cli": ^14.2.0
+    "@angular/core": ^14.2.0
+    "@angular/platform-browser": ^14.2.0
+    "@angular/platform-browser-dynamic": ^14.2.0
+    "@types/jasmine": ~4.0.0
+    filesize: 6.3.0
+    jasmine-core: ~4.3.0
+    karma: ~6.4.0
+    karma-chrome-launcher: ~3.1.0
+    karma-coverage: ~2.2.0
+    karma-jasmine: ~5.1.0
+    karma-jasmine-html-reporter: ~2.0.0
+    ngx-filesize: 3.0.0-alpha.0
+    rxjs: ~7.5.0
+    tslib: ^2.3.0
+    typescript: ~4.7.2
+    zone.js: ~0.11.4
+  languageName: unknown
+  linkType: soft
+
 "ngx-filesize-root@workspace:.":
   version: 0.0.0-use.local
   resolution: "ngx-filesize-root@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"ngx-filesize@3.0.0-alpha.0, ngx-filesize@workspace:packages/ngx-filesize":
+  version: 0.0.0-use.local
+  resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
     "@angular-devkit/build-angular": ^14.2.3
     "@angular-eslint/builder": 14.1.2
@@ -6900,6 +6934,9 @@ __metadata:
     tslib: ^2.3.0
     typescript: ~4.7.2
     zone.js: ~0.11.4
+  peerDependencies:
+    "@angular/common": ^14.2.0
+    "@angular/core": ^14.2.0
   languageName: unknown
   linkType: soft
 
@@ -8511,11 +8548,11 @@ __metadata:
   linkType: hard
 
 "rxjs@npm:^7.5.5, rxjs@npm:~7.5.0":
-  version: 7.5.6
-  resolution: "rxjs@npm:7.5.6"
+  version: 7.5.7
+  resolution: "rxjs@npm:7.5.7"
   dependencies:
     tslib: ^2.1.0
-  checksum: fc05f01364a74dac57490fb3e07ea63b422af04017fae1db641a009073f902ef69f285c5daac31359620dc8d9aee7d81e42b370ca2a8573d1feae0b04329383b
+  checksum: edabcdb73b0f7e0f5f6e05c2077aff8c52222ac939069729704357d6406438acca831c24210db320aba269e86dbe1a400f3769c89101791885121a342fb15d9c
   languageName: node
   linkType: hard
 

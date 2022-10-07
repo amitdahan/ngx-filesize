@@ -23,14 +23,6 @@
       "es2020",
       "dom"
     ],
-    "paths": {
-      "ngx-filesize": [
-        "dist/ngx-filesize"
-      ],
-      "ngx-filesize-demo": [
-        "dist/ngx-filesize-demo"
-      ]
-    },
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
