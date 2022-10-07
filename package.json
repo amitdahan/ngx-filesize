@@ -6,7 +6,9 @@
   ],
   "private": true,
   "scripts": {
-    "build:all": "yarn workspaces foreach --topological-dev -pv run build",
+    "build:ngx-filesize": "yarn workspace ngx-filesize build",
+    "build:demos": "yarn workspaces foreach -pv --include \"filesize-*-demo\" run build",
+    "build:all": "yarn build:ngx-filesize && yarn build:demos",
     "test:all": "yarn workspaces foreach -pv run test:ci",
     "lint:all": "yarn workspaces foreach -pv run lint"
   },

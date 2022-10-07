@@ -1,5 +1,5 @@
 {
-  "name": "filesize-6-demo",
+  "name": "filesize-9-demo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -16,7 +16,7 @@
     "@angular/core": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
-    "filesize": "^6.0.0",
+    "filesize": "^9.0.0",
     "ngx-filesize": "file:../ngx-filesize",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
