@@ -1,5 +1,5 @@
 {
-  "name": "ngx-filesize-demo",
+  "name": "filseize-6-demo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -16,8 +16,8 @@
     "@angular/core": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
-    "filesize": "6.3.0",
-    "ngx-filesize": "3.0.0-alpha.0",
+    "filesize": "^6.0.0",
+    "ngx-filesize": "workspace:*",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

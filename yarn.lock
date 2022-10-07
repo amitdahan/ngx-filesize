@@ -5033,6 +5033,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"filesize@npm:^6.0.0":
+  version: 6.4.0
+  resolution: "filesize@npm:6.4.0"
+  checksum: 83619b0a656225e84ba9a73271b80091629c0e88c2936c1ebd36fff96fb0e2fbae0273c2caccd522c02bc1a32ad9eba869c28c6b2c36e06187d25fd298c3dfe8
+  languageName: node
+  linkType: hard
+
 "fill-range@npm:^7.0.1":
   version: 7.0.1
   resolution: "fill-range@npm:7.0.1"
@@ -5041,6 +5048,34 @@ __metadata:
   checksum: cc283f4e65b504259e64fd969bcf4def4eb08d85565e906b7d36516e87819db52029a76b6363d0f02d0d532f0033c9603b9e2d943d56ee3b0d4f7ad3328ff917
   languageName: node
   linkType: hard
+
+"filseize-6-demo@workspace:packages/filesize-6-demo":
+  version: 0.0.0-use.local
+  resolution: "filseize-6-demo@workspace:packages/filesize-6-demo"
+  dependencies:
+    "@angular-devkit/build-angular": ^14.2.3
+    "@angular/cli": ~14.2.3
+    "@angular/common": ^14.2.0
+    "@angular/compiler": ^14.2.0
+    "@angular/compiler-cli": ^14.2.0
+    "@angular/core": ^14.2.0
+    "@angular/platform-browser": ^14.2.0
+    "@angular/platform-browser-dynamic": ^14.2.0
+    "@types/jasmine": ~4.0.0
+    filesize: ^6.0.0
+    jasmine-core: ~4.3.0
+    karma: ~6.4.0
+    karma-chrome-launcher: ~3.1.0
+    karma-coverage: ~2.2.0
+    karma-jasmine: ~5.1.0
+    karma-jasmine-html-reporter: ~2.0.0
+    ngx-filesize: "workspace:*"
+    rxjs: ~7.5.0
+    tslib: ^2.3.0
+    typescript: ~4.7.2
+    zone.js: ~0.11.4
+  languageName: unknown
+  linkType: soft
 
 "finalhandler@npm:1.1.2":
   version: 1.1.2
@@ -6867,41 +6902,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ngx-filesize-demo@workspace:packages/ngx-filesize-demo":
-  version: 0.0.0-use.local
-  resolution: "ngx-filesize-demo@workspace:packages/ngx-filesize-demo"
-  dependencies:
-    "@angular-devkit/build-angular": ^14.2.3
-    "@angular/cli": ~14.2.3
-    "@angular/common": ^14.2.0
-    "@angular/compiler": ^14.2.0
-    "@angular/compiler-cli": ^14.2.0
-    "@angular/core": ^14.2.0
-    "@angular/platform-browser": ^14.2.0
-    "@angular/platform-browser-dynamic": ^14.2.0
-    "@types/jasmine": ~4.0.0
-    filesize: 6.3.0
-    jasmine-core: ~4.3.0
-    karma: ~6.4.0
-    karma-chrome-launcher: ~3.1.0
-    karma-coverage: ~2.2.0
-    karma-jasmine: ~5.1.0
-    karma-jasmine-html-reporter: ~2.0.0
-    ngx-filesize: 3.0.0-alpha.0
-    rxjs: ~7.5.0
-    tslib: ^2.3.0
-    typescript: ~4.7.2
-    zone.js: ~0.11.4
-  languageName: unknown
-  linkType: soft
-
 "ngx-filesize-root@workspace:.":
   version: 0.0.0-use.local
   resolution: "ngx-filesize-root@workspace:."
   languageName: unknown
   linkType: soft
 
-"ngx-filesize@3.0.0-alpha.0, ngx-filesize@workspace:packages/ngx-filesize":
+"ngx-filesize@workspace:*, ngx-filesize@workspace:packages/ngx-filesize":
   version: 0.0.0-use.local
   resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
@@ -6937,6 +6944,7 @@ __metadata:
   peerDependencies:
     "@angular/common": ^14.2.0
     "@angular/core": ^14.2.0
+    filesize: ">= 4.0.0"
   languageName: unknown
   linkType: soft
 

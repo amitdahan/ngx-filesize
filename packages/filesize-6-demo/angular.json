@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-filesize-demo": {
+    "filesize-6-demo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-filesize-demo",
+            "outputPath": "dist/filesize-6-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngx-filesize-demo:build:production"
+              "browserTarget": "filesize-6-demo:build:production"
             },
             "development": {
-              "browserTarget": "ngx-filesize-demo:build:development"
+              "browserTarget": "filesize-6-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-filesize-demo:build"
+            "browserTarget": "filesize-6-demo:build"
           }
         },
         "test": {
