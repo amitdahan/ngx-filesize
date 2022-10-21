@@ -59,7 +59,7 @@
     "@angular/core": "^14.2.7",
     "@angular/platform-browser": "^14.2.7",
     "@angular/platform-browser-dynamic": "^14.2.7",
-    "@types/jasmine": "~4.0.3",
+    "@types/jasmine": "~4.3.0",
     "@typescript-eslint/eslint-plugin": "5.40.1",
     "@typescript-eslint/parser": "5.40.1",
     "eslint": "^8.25.0",
