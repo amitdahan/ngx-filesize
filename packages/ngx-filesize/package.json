@@ -37,7 +37,6 @@
     "test:ci": "yarn test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint"
   },
-  "private": true,
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0",
