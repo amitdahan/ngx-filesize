@@ -6,6 +6,6 @@
   ],
   "baseBranches": [
     "master",
-    "3.x"
+    "next"
   ]
 }
