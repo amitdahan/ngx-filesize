@@ -6887,7 +6887,7 @@ __metadata:
     karma-coverage: ~2.2.0
     karma-jasmine: ~5.1.0
     karma-jasmine-html-reporter: ~2.0.0
-    ngx-filesize: 3.0.0-alpha.0
+    ngx-filesize: "workspace:*"
     rxjs: ~7.5.0
     tslib: ^2.3.0
     typescript: ~4.7.2
@@ -6901,7 +6901,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ngx-filesize@3.0.0-alpha.0, ngx-filesize@workspace:packages/ngx-filesize":
+"ngx-filesize@workspace:*, ngx-filesize@workspace:packages/ngx-filesize":
   version: 0.0.0-use.local
   resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
