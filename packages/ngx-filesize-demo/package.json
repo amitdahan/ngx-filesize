@@ -16,7 +16,7 @@
     "@angular/core": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
-    "filesize": "6.3.0",
+    "filesize": "^9.0.0",
     "ngx-filesize": "3.0.0-alpha.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

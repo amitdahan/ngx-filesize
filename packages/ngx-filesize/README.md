@@ -1,17 +1,24 @@
 # `ngx-filesize`
 
-A [filesize.js](https://filesizejs.com) pipe for Angular
+A [filesize.js](https://filesizejs.com) pipe for Angular.
 
-## v2 Migration
+## 3.0.0 breaking changes
+- `ngx-filesize` now supports & requires Angular 14+.
+- `filesize` is now a peer dependency (`>= 6.0.0 < 10.0.0`, note `10` isn't supported), and so it must be installed alongside `ngx-filesize@^3`.
+
+## 2.0.0 breaking changes
 Pipe name was changed from `{{ 123 | bytes }}` to `{{ 123 | filesize }}`
 
 ## Usage:
-```
-npm install ngx-filesize
+
+```sh
+npm install ngx-filesize filesize@9
+# or 
+yarn add ngx-filesize filesize@9
 ```
 
-#### In your module:
-```typescript
+Import the `NgxFilesizeModule` into your own `NgModule`:
+```ts
 import {NgxFilesizeModule} from 'ngx-filesize';
 
 // ...
@@ -27,7 +34,7 @@ import {NgxFilesizeModule} from 'ngx-filesize';
 })
 ```
 
-#### In your component:
-```typescript
-{{bytes | filesize}}
+And use the pipe in your templates:
+```handlebars
+{{ 123 | filesize }}
 ```
