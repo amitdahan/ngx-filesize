@@ -10,5 +10,5 @@
     "test:all": "yarn workspaces foreach -pv run test:ci",
     "lint:all": "yarn workspaces foreach -pv run lint"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.2.4"
 }
