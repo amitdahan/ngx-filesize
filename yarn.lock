@@ -6067,10 +6067,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:^4.1.0, jasmine-core@npm:~4.4.0":
+"jasmine-core@npm:^4.1.0":
   version: 4.4.0
   resolution: "jasmine-core@npm:4.4.0"
   checksum: b52e2f17080dd33628dee73c8b6eb9fbe793126a5e4ceb77ecf164f15fc44f6b29baa1e034992630a866522f470d62dc2f3c364b234af3487a9507c9d1ae0d94
+  languageName: node
+  linkType: hard
+
+"jasmine-core@npm:~4.5.0":
+  version: 4.5.0
+  resolution: "jasmine-core@npm:4.5.0"
+  checksum: e7adda527d544097ddb8aeec7bbbed19c59ca70ef57e1b740189eecf5cde3e0e20fba74d15c511b169105cface4fa2a775a6088c2220bf97f482b51b3c5d1fa1
   languageName: node
   linkType: hard
 
@@ -6949,7 +6956,7 @@ __metadata:
     "@angular/platform-browser-dynamic": ^14.2.7
     "@types/jasmine": ~4.3.0
     filesize: ^9.0.11
-    jasmine-core: ~4.4.0
+    jasmine-core: ~4.5.0
     karma: ~6.4.1
     karma-chrome-launcher: ~3.1.1
     karma-coverage: ~2.2.0
@@ -6991,7 +6998,7 @@ __metadata:
     "@typescript-eslint/parser": 5.41.0
     eslint: ^8.25.0
     filesize: ^9.0.11
-    jasmine-core: ~4.4.0
+    jasmine-core: ~4.5.0
     karma: ~6.4.1
     karma-chrome-launcher: ~3.1.1
     karma-coverage: ~2.2.0
