@@ -6971,7 +6971,7 @@ __metadata:
     karma-jasmine: ~5.1.0
     karma-jasmine-html-reporter: ~2.0.0
     ngx-filesize: "workspace:*"
-    rxjs: ~7.6.0
+    rxjs: ~7.8.0
     tslib: ^2.4.0
     typescript: ~4.8.0
     zone.js: ~0.12.0
@@ -7013,7 +7013,7 @@ __metadata:
     karma-jasmine: ~5.1.0
     karma-jasmine-html-reporter: ~2.0.0
     ng-packagr: ^14.2.1
-    rxjs: ~7.6.0
+    rxjs: ~7.8.0
     tslib: ^2.4.0
     typescript: ~4.8.0
     zone.js: ~0.12.0
@@ -8651,12 +8651,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:~7.6.0":
-  version: 7.6.0
-  resolution: "rxjs@npm:7.6.0"
+"rxjs@npm:~7.8.0":
+  version: 7.8.1
+  resolution: "rxjs@npm:7.8.1"
   dependencies:
     tslib: ^2.1.0
-  checksum: b3abbbfe1ddfd06fca9314b83cbd13bcddc3320429218136f75c79a4802ac430dd13873364aac1ded54fd457f8c77df332d205a92d8a1c61656565bb718c50af
+  checksum: de4b53db1063e618ec2eca0f7965d9137cabe98cf6be9272efe6c86b47c17b987383df8574861bcced18ebd590764125a901d5506082be84a8b8e364bf05f119
   languageName: node
   linkType: hard
 
