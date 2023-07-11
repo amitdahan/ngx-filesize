@@ -21,6 +21,19 @@
     "gigabytes",
     "pipe"
   ],
+  "module": "fesm2022/ngx-filesize.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-filesize.mjs",
+      "esm": "./esm2022/ngx-filesize.mjs",
+      "default": "./fesm2022/ngx-filesize.mjs"
+    }
+  },
   "sideEffects": false,
   "scripts": {
     "ng": "ng",
