@@ -21,17 +21,17 @@
     "gigabytes",
     "pipe"
   ],
-  "module": "fesm2022/ngx-filesize.mjs",
-  "typings": "index.d.ts",
+  "module": "dist/ngx-filesize/fesm2022/ngx-filesize.mjs",
+  "typings": "dist/ngx-filesize/index.d.ts",
   "exports": {
     "./package.json": {
-      "default": "./package.json"
+      "default": "./dist/ngx-filesize/package.json"
     },
     ".": {
-      "types": "./index.d.ts",
-      "esm2022": "./esm2022/ngx-filesize.mjs",
-      "esm": "./esm2022/ngx-filesize.mjs",
-      "default": "./fesm2022/ngx-filesize.mjs"
+      "types": "./dist/ngx-filesize/index.d.ts",
+      "esm2022": "./dist/ngx-filesize/esm2022/ngx-filesize.mjs",
+      "esm": "./dist/ngx-filesize/esm2022/ngx-filesize.mjs",
+      "default": "./dist/ngx-filesize/fesm2022/ngx-filesize.mjs"
     }
   },
   "sideEffects": false,
