@@ -1,6 +1,6 @@
 {
   "name": "ngx-filesize",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "A filesize.js pipe for Angular",
   "license": "MIT",
   "repository": {
@@ -21,12 +21,6 @@
     "gigabytes",
     "pipe"
   ],
-  "module": "dist/ngx-filesize/fesm2015/ngx-filesize.mjs",
-  "es2020": "dist/ngx-filesize/fesm2020/ngx-filesize.mjs",
-  "esm2020": "dist/ngx-filesize/esm2020/ngx-filesize.mjs",
-  "fesm2020": "dist/ngx-filesize/fesm2020/ngx-filesize.mjs",
-  "fesm2015": "dist/ngx-filesize/fesm2015/ngx-filesize.mjs",
-  "typings": "dist/ngx-filesize/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "ng": "ng",
@@ -38,42 +32,42 @@
     "lint": "ng lint"
   },
   "peerDependencies": {
-    "@angular/common": ">= 14.2.0 < 17.0.0",
-    "@angular/core": ">= 14.2.0 < 17.0.0",
+    "@angular/common": ">= 16.0.0 < 17.0.0",
+    "@angular/core": ">= 16.0.0 < 17.0.0",
     "filesize": ">= 6.0.0 < 10.0.0"
   },
-  "dependencies": {
+  "dependencies2": {
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.6",
+    "@angular-devkit/build-angular": "^16.1.4",
     "@angular-eslint/builder": "14.4.0",
     "@angular-eslint/eslint-plugin": "14.4.0",
     "@angular-eslint/eslint-plugin-template": "14.4.0",
     "@angular-eslint/schematics": "14.4.0",
     "@angular-eslint/template-parser": "14.4.0",
-    "@angular/cli": "~14.2.6",
-    "@angular/common": "^14.2.7",
-    "@angular/compiler": "^14.2.7",
-    "@angular/compiler-cli": "^14.2.7",
-    "@angular/core": "^14.2.7",
-    "@angular/platform-browser": "^14.2.7",
-    "@angular/platform-browser-dynamic": "^14.2.7",
+    "@angular/cli": "~16.1.4",
+    "@angular/common": "^16.1.0",
+    "@angular/compiler": "^16.1.0",
+    "@angular/compiler-cli": "^16.1.0",
+    "@angular/core": "^16.1.0",
+    "@angular/platform-browser": "^16.1.0",
+    "@angular/platform-browser-dynamic": "^16.1.0",
     "@types/jasmine": "~4.3.0",
-    "@typescript-eslint/eslint-plugin": "6.0.0",
-    "@typescript-eslint/parser": "6.0.0",
-    "eslint": "^8.25.0",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "eslint": "^8.28.0",
     "filesize": "^9.0.11",
     "jasmine-core": "~4.6.0",
-    "karma": "~6.4.1",
+    "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "ng-packagr": "^14.2.1",
+    "ng-packagr": "^16.0.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.4.0",
-    "typescript": "~4.8.0",
+    "tslib": "^2.3.0",
+    "typescript": "~5.1.3",
     "zone.js": "~0.13.0"
   }
 }

@@ -1,5 +1,6 @@
 {
   "name": "ngx-filesize-demo",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,28 +12,36 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^14.2.7",
-    "@angular/compiler": "^14.2.7",
-    "@angular/core": "^14.2.7",
-    "@angular/platform-browser": "^14.2.7",
-    "@angular/platform-browser-dynamic": "^14.2.7",
+    "@angular/common": "^16.1.0",
+    "@angular/compiler": "^16.1.0",
+    "@angular/core": "^16.1.0",
+    "@angular/platform-browser": "^16.1.0",
+    "@angular/platform-browser-dynamic": "^16.1.0",
     "filesize": "^9.0.11",
     "ngx-filesize": "workspace:*",
     "rxjs": "~7.8.0",
-    "tslib": "^2.4.0",
+    "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.6",
-    "@angular/cli": "~14.2.6",
-    "@angular/compiler-cli": "^14.2.7",
+    "@angular-devkit/build-angular": "^16.1.4",
+    "@angular-eslint/builder": "14.4.0",
+    "@angular-eslint/eslint-plugin": "14.4.0",
+    "@angular-eslint/eslint-plugin-template": "14.4.0",
+    "@angular-eslint/schematics": "14.4.0",
+    "@angular-eslint/template-parser": "14.4.0",
+    "@angular/cli": "~16.1.4",
+    "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "eslint": "^8.28.0",
     "jasmine-core": "~4.6.0",
-    "karma": "~6.4.1",
+    "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~4.8.0"
+    "typescript": "~5.1.3"
   }
 }

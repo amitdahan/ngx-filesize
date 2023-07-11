@@ -4,16 +4,10 @@ import { NgxFilesizeModule } from 'ngx-filesize';
 import filesize from 'filesize';
 
 describe('AppComponent', () => {
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
-      imports: [
-        NgxFilesizeModule
-      ],
-    }).compileComponents();
-  });
+  beforeEach(() => TestBed.configureTestingModule({
+    declarations: [AppComponent],
+    imports: [NgxFilesizeModule],
+  }));
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);

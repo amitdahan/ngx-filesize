@@ -2,6 +2,9 @@
 
 A [filesize.js](https://filesizejs.com) pipe for Angular.
 
+## 4.0.0 breaking changes
+- `ngx-filesize` now supports & requires Angular 16+.
+
 ## 3.0.0 breaking changes
 - `ngx-filesize` now supports & requires Angular 14+.
 - `filesize` is now a peer dependency (`>= 6.0.0 < 10.0.0`, note `10` isn't supported), and so it must be installed alongside `ngx-filesize@^3`.

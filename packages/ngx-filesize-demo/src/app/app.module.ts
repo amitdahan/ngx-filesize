@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgxFilesizeModule } from 'ngx-filesize';
 
 import { AppComponent } from './app.component';
-import { NgxFilesizeModule } from 'ngx-filesize';
 
 @NgModule({
   declarations: [
