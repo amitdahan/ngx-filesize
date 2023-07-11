@@ -1,6 +1,6 @@
 {
   "name": "ngx-filesize",
-  "version": "4.0.0",
+  "version": "4.0.0-alpha.0",
   "description": "A filesize.js pipe for Angular",
   "license": "MIT",
   "repository": {
