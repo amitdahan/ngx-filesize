@@ -7,7 +7,6 @@
       "@angular-eslint/schematics"
     ]
   },
-  "newProjectRoot": "projects",
   "projects": {
     "ngx-filesize": {
       "projectType": "library",
