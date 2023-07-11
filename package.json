@@ -10,8 +10,8 @@
     "test:all": "yarn workspaces foreach -pv run test:ci",
     "lint:all": "yarn workspaces foreach -pv run lint"
   },
-  "packageManager": "yarn@3.6.1",
   "devDependencies": {
     "@angular/cli": "^16.1.4"
-  }
+  },
+  "packageManager": "yarn@3.6.1"
 }
