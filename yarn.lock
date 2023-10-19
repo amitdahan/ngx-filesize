@@ -5222,10 +5222,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:^9.0.11":
-  version: 9.0.11
-  resolution: "filesize@npm:9.0.11"
-  checksum: 7e8a9f9a4089e3ee29de64c241b50db8db4008351ace959873cb950bac0c2e1e09f4b45f42eaed8acd589a895dde978ed199e7a9982902fa06ca0be48e5ea92d
+"filesize@npm:^10.0.0":
+  version: 10.1.0
+  resolution: "filesize@npm:10.1.0"
+  checksum: 8dd35fe85ebc56e9ee99b6814a854f5d5ee12d09a05cf38ebc1865b5efca128a2bb7480d3c2e841a3d20d45c756fc669efecbf65b6842afd75b7f20648306654
   languageName: node
   linkType: hard
 
@@ -7305,7 +7305,7 @@ __metadata:
     "@angular/platform-browser": ^14.2.7
     "@angular/platform-browser-dynamic": ^14.2.7
     "@types/jasmine": ~4.3.0
-    filesize: ^9.0.11
+    filesize: ^10.0.0
     jasmine-core: ~4.6.0
     karma: ~6.4.1
     karma-chrome-launcher: ~3.2.0
@@ -7347,7 +7347,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 6.0.0
     "@typescript-eslint/parser": 6.0.0
     eslint: ^8.25.0
-    filesize: ^9.0.11
+    filesize: ^10.0.0
     jasmine-core: ~4.6.0
     karma: ~6.4.1
     karma-chrome-launcher: ~3.2.0
@@ -7362,7 +7362,7 @@ __metadata:
   peerDependencies:
     "@angular/common": ">= 14.2.0 < 17.0.0"
     "@angular/core": ">= 14.2.0 < 17.0.0"
-    filesize: ">= 6.0.0 < 10.0.0"
+    filesize: < 11.0.0
   languageName: unknown
   linkType: soft
 
