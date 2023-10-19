@@ -2376,10 +2376,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~4.3.0":
-  version: 4.3.0
-  resolution: "@types/jasmine@npm:4.3.0"
-  checksum: 8a4c8716d80ee6fd9e8976ce5d929fde9d34daa012ecd57e598149ecebf3e8acf42b4ebaf746e13b40a0564f9f3ca7a10a9c8eb2c95a047412ae3f37168bac01
+"@types/jasmine@npm:~4.6.0":
+  version: 4.6.1
+  resolution: "@types/jasmine@npm:4.6.1"
+  checksum: 1c34321d0bc99339c015f6a25c148753e5f16cf7dd2ec76cbe93f66500a8647efdaeaadb918918dd624198ef5574d0ce582f3b93220a8235b48bf1915d528c8a
   languageName: node
   linkType: hard
 
@@ -7304,7 +7304,7 @@ __metadata:
     "@angular/core": ^14.2.7
     "@angular/platform-browser": ^14.2.7
     "@angular/platform-browser-dynamic": ^14.2.7
-    "@types/jasmine": ~4.3.0
+    "@types/jasmine": ~4.6.0
     filesize: ^9.0.11
     jasmine-core: ~4.6.0
     karma: ~6.4.1
@@ -7343,7 +7343,7 @@ __metadata:
     "@angular/core": ^14.2.7
     "@angular/platform-browser": ^14.2.7
     "@angular/platform-browser-dynamic": ^14.2.7
-    "@types/jasmine": ~4.3.0
+    "@types/jasmine": ~4.6.0
     "@typescript-eslint/eslint-plugin": 6.0.0
     "@typescript-eslint/parser": 6.0.0
     eslint: ^8.25.0
