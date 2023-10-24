@@ -1,11 +1,11 @@
 on:
   pull_request:
     branches:
-      - master
+      - main
       - next
   push:
     branches:
-      - master
+      - main
       - next
 
 jobs:
