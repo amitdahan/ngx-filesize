@@ -6,9 +6,9 @@
   ],
   "private": true,
   "scripts": {
-    "build:all": "yarn workspaces foreach --topological-dev -pv run build",
-    "test:all": "yarn workspaces foreach -pv run test:ci",
-    "lint:all": "yarn workspaces foreach -pv run lint"
+    "build:all": "yarn workspaces foreach --topological-dev -Ap run build",
+    "test:all": "yarn workspaces foreach -Ap run test:ci",
+    "lint:all": "yarn workspaces foreach -Ap run lint"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@4.0.0"
 }
