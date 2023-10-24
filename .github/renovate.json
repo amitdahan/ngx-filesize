@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":preserveSemverRanges"],
-  "baseBranches": ["master", "next"],
+  "baseBranches": ["main", "next"],
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
