@@ -38,8 +38,8 @@
     "lint": "ng lint"
   },
   "peerDependencies": {
-    "@angular/common": ">= 14.2.0 < 17.0.0",
-    "@angular/core": ">= 14.2.0 < 17.0.0",
+    "@angular/common": "< 18.0.0",
+    "@angular/core": "< 18.0.0",
     "filesize": ">= 6.0.0 < 10.0.0"
   },
   "dependencies": {
@@ -53,12 +53,12 @@
     "@angular-eslint/schematics": "14.4.0",
     "@angular-eslint/template-parser": "14.4.0",
     "@angular/cli": "~14.2.6",
-    "@angular/common": "^14.2.7",
-    "@angular/compiler": "^14.2.7",
-    "@angular/compiler-cli": "^14.2.7",
-    "@angular/core": "^14.2.7",
-    "@angular/platform-browser": "^14.2.7",
-    "@angular/platform-browser-dynamic": "^14.2.7",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
     "@types/jasmine": "~4.3.0",
     "@typescript-eslint/eslint-plugin": "6.0.0",
     "@typescript-eslint/parser": "6.0.0",
