@@ -46,13 +46,13 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.6",
+    "@angular-devkit/build-angular": "^17.0.0",
     "@angular-eslint/builder": "14.4.0",
     "@angular-eslint/eslint-plugin": "14.4.0",
     "@angular-eslint/eslint-plugin-template": "14.4.0",
     "@angular-eslint/schematics": "14.4.0",
     "@angular-eslint/template-parser": "14.4.0",
-    "@angular/cli": "~14.2.6",
+    "@angular/cli": "~17.3.0",
     "@angular/common": "^14.2.7",
     "@angular/compiler": "^14.2.7",
     "@angular/compiler-cli": "^14.2.7",
