@@ -38,3 +38,9 @@ And use the pipe in your templates:
 ```handlebars
 {{ 123 | filesize }}
 ```
+
+optionally add options to filesize e.g.
+```handlebars
+{{ 123 | filesize: {base: 2} }}
+```
+(this would transform 1024 to 1 like for bytes)
