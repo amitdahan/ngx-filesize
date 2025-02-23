@@ -7469,8 +7469,8 @@ __metadata:
     typescript: "npm:~4.8.0"
     zone.js: "npm:~0.13.0"
   peerDependencies:
-    "@angular/common": ">= 14.2.0 < 19.0.0"
-    "@angular/core": ">= 14.2.0 < 19.0.0"
+    "@angular/common": ">= 14.2.0 < 20.0.0"
+    "@angular/core": ">= 14.2.0 < 20.0.0"
     filesize: ">= 6.0.0 < 10.0.0"
   languageName: unknown
   linkType: soft
