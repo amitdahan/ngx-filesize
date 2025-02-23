@@ -2578,10 +2578,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:^4.6.0":
-  version: 4.6.5
-  resolution: "@types/jasmine@npm:4.6.5"
-  checksum: 10c0/9d20e00de9f3a9f68f949d0df55087f47928c03506c110de540945a4837df7c351a2d5fb93cd319cec15ce08ee3560920840d9ab86fae8bfe05242ce48679485
+"@types/jasmine@npm:^5.0.0":
+  version: 5.1.7
+  resolution: "@types/jasmine@npm:5.1.7"
+  checksum: 10c0/f8df11fb8c8dce20088bfbaf5f805878b1228b4522f6ef100ea539e2f363537304095200ea8e856a0795e45d18803970d12683bc5afa35ccb475cc8ec5ea6d54
   languageName: node
   linkType: hard
 
@@ -7996,7 +7996,7 @@ __metadata:
     "@angular/core": "npm:^14.2.7"
     "@angular/platform-browser": "npm:^14.2.7"
     "@angular/platform-browser-dynamic": "npm:^14.2.7"
-    "@types/jasmine": "npm:^4.6.0"
+    "@types/jasmine": "npm:^5.0.0"
     filesize: "npm:^9.0.11"
     jasmine-core: "npm:^5.6.0"
     karma: "npm:^6.4.1"
@@ -8035,7 +8035,7 @@ __metadata:
     "@angular/core": "npm:^14.2.7"
     "@angular/platform-browser": "npm:^14.2.7"
     "@angular/platform-browser-dynamic": "npm:^14.2.7"
-    "@types/jasmine": "npm:^4.6.0"
+    "@types/jasmine": "npm:^5.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
     "@typescript-eslint/parser": "npm:^6.21.0"
     eslint: "npm:^8.25.0"
