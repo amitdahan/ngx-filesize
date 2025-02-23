@@ -182,7 +182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/builder@npm:14.4.0":
+"@angular-eslint/builder@npm:^14.4.0":
   version: 14.4.0
   resolution: "@angular-eslint/builder@npm:14.4.0"
   peerDependencies:
@@ -199,7 +199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/eslint-plugin-template@npm:14.4.0":
+"@angular-eslint/eslint-plugin-template@npm:14.4.0, @angular-eslint/eslint-plugin-template@npm:^14.4.0":
   version: 14.4.0
   resolution: "@angular-eslint/eslint-plugin-template@npm:14.4.0"
   dependencies:
@@ -216,7 +216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/eslint-plugin@npm:14.4.0":
+"@angular-eslint/eslint-plugin@npm:14.4.0, @angular-eslint/eslint-plugin@npm:^14.4.0":
   version: 14.4.0
   resolution: "@angular-eslint/eslint-plugin@npm:14.4.0"
   dependencies:
@@ -229,7 +229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/schematics@npm:14.4.0":
+"@angular-eslint/schematics@npm:^14.4.0":
   version: 14.4.0
   resolution: "@angular-eslint/schematics@npm:14.4.0"
   dependencies:
@@ -244,7 +244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/template-parser@npm:14.4.0":
+"@angular-eslint/template-parser@npm:^14.4.0":
   version: 14.4.0
   resolution: "@angular-eslint/template-parser@npm:14.4.0"
   dependencies:
@@ -270,7 +270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:~14.2.6":
+"@angular/cli@npm:^14.2.6":
   version: 14.2.13
   resolution: "@angular/cli@npm:14.2.13"
   dependencies:
@@ -2578,7 +2578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~4.6.0":
+"@types/jasmine@npm:^4.6.0":
   version: 4.6.5
   resolution: "@types/jasmine@npm:4.6.5"
   checksum: 10c0/9d20e00de9f3a9f68f949d0df55087f47928c03506c110de540945a4837df7c351a2d5fb93cd319cec15ce08ee3560920840d9ab86fae8bfe05242ce48679485
@@ -2709,7 +2709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:6.21.0":
+"@typescript-eslint/eslint-plugin@npm:^6.21.0":
   version: 6.21.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.21.0"
   dependencies:
@@ -2734,7 +2734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:6.21.0":
+"@typescript-eslint/parser@npm:^6.21.0":
   version: 6.21.0
   resolution: "@typescript-eslint/parser@npm:6.21.0"
   dependencies:
@@ -6901,7 +6901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:~5.6.0":
+"jasmine-core@npm:^5.6.0":
   version: 5.6.0
   resolution: "jasmine-core@npm:5.6.0"
   checksum: 10c0/30abee5c22a1fab5b1973cefdc21ba874a8b93fcf5d7641d9c62dfc4dbf22c9dc745d928fa33a63d4343698263fa715b5caf3404b392b6814b018d6d5c055e06
@@ -7060,7 +7060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-chrome-launcher@npm:~3.2.0":
+"karma-chrome-launcher@npm:^3.2.0":
   version: 3.2.0
   resolution: "karma-chrome-launcher@npm:3.2.0"
   dependencies:
@@ -7069,7 +7069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-coverage@npm:~2.2.0":
+"karma-coverage@npm:^2.2.0":
   version: 2.2.1
   resolution: "karma-coverage@npm:2.2.1"
   dependencies:
@@ -7083,7 +7083,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-jasmine-html-reporter@npm:~2.1.0":
+"karma-jasmine-html-reporter@npm:^2.1.0":
   version: 2.1.0
   resolution: "karma-jasmine-html-reporter@npm:2.1.0"
   peerDependencies:
@@ -7094,7 +7094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-jasmine@npm:~5.1.0":
+"karma-jasmine@npm:^5.1.0":
   version: 5.1.0
   resolution: "karma-jasmine@npm:5.1.0"
   dependencies:
@@ -7114,7 +7114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma@npm:~6.4.1":
+"karma@npm:^6.4.1":
   version: 6.4.4
   resolution: "karma@npm:6.4.4"
   dependencies:
@@ -7989,23 +7989,23 @@ __metadata:
   resolution: "ngx-filesize-demo@workspace:packages/ngx-filesize-demo"
   dependencies:
     "@angular-devkit/build-angular": "npm:^14.2.6"
-    "@angular/cli": "npm:~14.2.6"
+    "@angular/cli": "npm:^14.2.6"
     "@angular/common": "npm:^14.2.7"
     "@angular/compiler": "npm:^14.2.7"
     "@angular/compiler-cli": "npm:^14.2.7"
     "@angular/core": "npm:^14.2.7"
     "@angular/platform-browser": "npm:^14.2.7"
     "@angular/platform-browser-dynamic": "npm:^14.2.7"
-    "@types/jasmine": "npm:~4.6.0"
+    "@types/jasmine": "npm:^4.6.0"
     filesize: "npm:^9.0.11"
-    jasmine-core: "npm:~5.6.0"
-    karma: "npm:~6.4.1"
-    karma-chrome-launcher: "npm:~3.2.0"
-    karma-coverage: "npm:~2.2.0"
-    karma-jasmine: "npm:~5.1.0"
-    karma-jasmine-html-reporter: "npm:~2.1.0"
+    jasmine-core: "npm:^5.6.0"
+    karma: "npm:^6.4.1"
+    karma-chrome-launcher: "npm:^3.2.0"
+    karma-coverage: "npm:^2.2.0"
+    karma-jasmine: "npm:^5.1.0"
+    karma-jasmine-html-reporter: "npm:^2.1.0"
     ngx-filesize: "workspace:*"
-    rxjs: "npm:~7.8.0"
+    rxjs: "npm:^7.8.0"
     tslib: "npm:^2.4.0"
     typescript: "npm:~4.8.4"
     zone.js: "npm:~0.15.0"
@@ -8023,31 +8023,31 @@ __metadata:
   resolution: "ngx-filesize@workspace:packages/ngx-filesize"
   dependencies:
     "@angular-devkit/build-angular": "npm:^14.2.6"
-    "@angular-eslint/builder": "npm:14.4.0"
-    "@angular-eslint/eslint-plugin": "npm:14.4.0"
-    "@angular-eslint/eslint-plugin-template": "npm:14.4.0"
-    "@angular-eslint/schematics": "npm:14.4.0"
-    "@angular-eslint/template-parser": "npm:14.4.0"
-    "@angular/cli": "npm:~14.2.6"
+    "@angular-eslint/builder": "npm:^14.4.0"
+    "@angular-eslint/eslint-plugin": "npm:^14.4.0"
+    "@angular-eslint/eslint-plugin-template": "npm:^14.4.0"
+    "@angular-eslint/schematics": "npm:^14.4.0"
+    "@angular-eslint/template-parser": "npm:^14.4.0"
+    "@angular/cli": "npm:^14.2.6"
     "@angular/common": "npm:^14.2.7"
     "@angular/compiler": "npm:^14.2.7"
     "@angular/compiler-cli": "npm:^14.2.7"
     "@angular/core": "npm:^14.2.7"
     "@angular/platform-browser": "npm:^14.2.7"
     "@angular/platform-browser-dynamic": "npm:^14.2.7"
-    "@types/jasmine": "npm:~4.6.0"
-    "@typescript-eslint/eslint-plugin": "npm:6.21.0"
-    "@typescript-eslint/parser": "npm:6.21.0"
+    "@types/jasmine": "npm:^4.6.0"
+    "@typescript-eslint/eslint-plugin": "npm:^6.21.0"
+    "@typescript-eslint/parser": "npm:^6.21.0"
     eslint: "npm:^8.25.0"
     filesize: "npm:^9.0.11"
-    jasmine-core: "npm:~5.6.0"
-    karma: "npm:~6.4.1"
-    karma-chrome-launcher: "npm:~3.2.0"
-    karma-coverage: "npm:~2.2.0"
-    karma-jasmine: "npm:~5.1.0"
-    karma-jasmine-html-reporter: "npm:~2.1.0"
+    jasmine-core: "npm:^5.6.0"
+    karma: "npm:^6.4.1"
+    karma-chrome-launcher: "npm:^3.2.0"
+    karma-coverage: "npm:^2.2.0"
+    karma-jasmine: "npm:^5.1.0"
+    karma-jasmine-html-reporter: "npm:^2.1.0"
     ng-packagr: "npm:^14.2.1"
-    rxjs: "npm:~7.8.0"
+    rxjs: "npm:^7.8.0"
     tslib: "npm:^2.4.0"
     typescript: "npm:~4.8.4"
     zone.js: "npm:~0.15.0"
@@ -9874,7 +9874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.5.5, rxjs@npm:~7.8.0":
+"rxjs@npm:^7.5.5, rxjs@npm:^7.8.0":
   version: 7.8.2
   resolution: "rxjs@npm:7.8.2"
   dependencies:
