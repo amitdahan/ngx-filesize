@@ -21,17 +21,22 @@ Import the `NgxFilesizeModule` into your own `NgModule`:
 ```ts
 import {NgxFilesizeModule} from 'ngx-filesize';
 
-// ...
-
 @NgModule({
     // ...
-    imports: [
-        // ...
-        NgxFilesizeModule,
-        // ...
-    ]
-    // ...
+    imports: [NgxFilesizeModule]
 })
+// ...
+```
+
+Or, if you don't have an `NgModule`, in your `@Component`: 
+```ts
+import {NgxFilesizeModule} from 'ngx-filesize';
+
+@Component({
+  // ...
+  imports: [NgxFilesizeModule]
+})
+// ...
 ```
 
 And use the pipe in your templates:
