@@ -6,6 +6,6 @@
     ":maintainLockFilesWeekly",
     "group:allNonMajor"
   ],
-  "baseBranches": ["main", "next"],
+  "baseBranches": ["main"],
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
