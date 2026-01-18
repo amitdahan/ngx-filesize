@@ -38,8 +38,8 @@
     "lint": "ng lint"
   },
   "peerDependencies": {
-    "@angular/common": ">= 14.2.0 < 21.0.0",
-    "@angular/core": ">= 14.2.0 < 21.0.0",
+    "@angular/common": ">= 14.2.0 < 22.0.0",
+    "@angular/core": ">= 14.2.0 < 22.0.0",
     "filesize": ">= 6.0.0 < 10.0.0"
   },
   "dependencies": {
