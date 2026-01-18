@@ -300,15 +300,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^14.2.7":
-  version: 14.3.0
-  resolution: "@angular/common@npm:14.3.0"
+"@angular/common@npm:^19.0.0":
+  version: 19.2.18
+  resolution: "@angular/common@npm:19.2.18"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 14.3.0
+    "@angular/core": 19.2.18
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/87c3095a8a8aaeb02cfa1c5f376303a036a66193b7b2d6d011f4b187b061aad8d34e57a2c89bd4b780c31aa69ba508ee435588a99ff5404f8e5571ede6e9de68
+  checksum: 10c0/52468b5fe60c1ce9674ba80ba64b9fb857700bfd0e5630a88d3df7195fabeb8b551a4716984b2221eca21807e703d3f3cf7392d2bd23c8594c7624e1f26cba3e
   languageName: node
   linkType: hard
 
@@ -7969,7 +7969,7 @@ __metadata:
   dependencies:
     "@angular-devkit/build-angular": "npm:^14.2.6"
     "@angular/cli": "npm:^14.2.6"
-    "@angular/common": "npm:^14.2.7"
+    "@angular/common": "npm:^19.0.0"
     "@angular/compiler": "npm:^14.2.7"
     "@angular/compiler-cli": "npm:^14.2.7"
     "@angular/core": "npm:^14.2.7"
@@ -8008,7 +8008,7 @@ __metadata:
     "@angular-eslint/schematics": "npm:^14.4.0"
     "@angular-eslint/template-parser": "npm:^14.4.0"
     "@angular/cli": "npm:^14.2.6"
-    "@angular/common": "npm:^14.2.7"
+    "@angular/common": "npm:^19.0.0"
     "@angular/compiler": "npm:^14.2.7"
     "@angular/compiler-cli": "npm:^14.2.7"
     "@angular/core": "npm:^14.2.7"
